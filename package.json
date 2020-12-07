@@ -1,0 +1,42 @@
+{
+  "name": "momo-store",
+  "version": "0.0.1",
+  "description": "simple public state management by react hook",
+  "module": "index.js",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-react": "^7.17.0"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fribble186/momo-store.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "public",
+    "state",
+    "management"
+  ],
+  "author": "fribble",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fribble186/momo-store/issues"
+  },
+  "homepage": "https://github.com/fribble186/momo-store#readme"
+}
